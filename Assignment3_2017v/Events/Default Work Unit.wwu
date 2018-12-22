@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="train" ID="{3E696592-5EB0-479D-B767-864CE6023D4D}">
+					<ChildrenList>
+						<Action Name="" ID="{75F6D4DB-855F-4EB4-BA90-AEF58C2FD432}" ShortID="484893679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="train" ID="{6B052DB8-7D68-4FFD-AF63-AF4A72370A6B}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_TheDillards_Dooley" ID="{15502F0E-C943-4784-B3BB-D437432BF073}">
+					<ChildrenList>
+						<Action Name="" ID="{B0CF8797-608B-479F-A93E-1C94F7F79F97}" ShortID="975387920">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_TheGrowlers_GoingGetsTuff" ID="{419B55B7-4ED6-400E-99CC-21DBDBD7882B}">
+					<ChildrenList>
+						<Action Name="" ID="{59CF0AB6-1AD3-46FF-8F89-7E48CCB2C4B7}" ShortID="350476989">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{91A7F62D-94EA-441B-B520-FD9E6E0343D9}">
+					<ChildrenList>
+						<Action Name="" ID="{7E3CAF65-8652-4F86-8C03-36ACD1BB8A19}" ShortID="1023435322">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{B764BC97-9F5A-4D0B-AB87-2EE15004372D}" ShortID="49925130">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{994D3E78-9F10-41C7-9526-7D7C4CD1F7AE}" ShortID="113788097">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{D9C25562-0D3C-4C0E-A6C4-13724D6883C3}" ShortID="690147033">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_All" ID="{15E847D7-6085-4ED7-BFB3-2120B7960601}">
+					<ChildrenList>
+						<Action Name="" ID="{436060E7-B906-42E0-83D3-717D2E977C1A}" ShortID="355258438">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{1A4D3383-A408-4907-BCD6-8B7827EE46DC}" ShortID="444473947">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0C76B5B-DE30-49B7-91EC-16E15D868FA8}" ShortID="667875480">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tunnel" ID="{61E0461F-60F2-4328-BEAA-B2D0141F0DBB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{446B4417-1B1B-453A-B337-A1BC7717CD38}" ShortID="400199404">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07A8A90C-6673-4A3C-B107-2B4814A3235E}" ShortID="359440175">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{67DE7185-77BC-4FED-8008-09B51140C9C2}" ShortID="577974864">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tunnel" ID="{61E0461F-60F2-4328-BEAA-B2D0141F0DBB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DD70D22D-335B-4E69-9C9D-90EE36BC2C0A}" ShortID="1052673389">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_All" ID="{7B0A3E63-273B-439C-A4E5-BD2C2DF47272}">
+					<ChildrenList>
+						<Action Name="" ID="{6D495CA6-2892-4549-A898-B9A294675A74}" ShortID="140775692">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{80D4C579-0C46-49FE-BF8B-E3E1ECE9F007}" ShortID="930727164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{975FE0C0-2032-45ED-A9DB-1B089D6F80B5}" ShortID="92067038">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tunnel" ID="{61E0461F-60F2-4328-BEAA-B2D0141F0DBB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{10E9A10E-6CED-4252-A058-04B483896EC2}" ShortID="127779955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE36E5E6-DEF1-4E5B-B1C4-114CB33E787F}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{AE36E5E6-DEF1-4E5B-B1C4-114CB33E787F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="swap_music" ID="{0B5A6A6C-3471-4C3D-B035-08B20D3501DE}">
+					<ChildrenList>
+						<State Name="None" ID="{42026D94-8762-44FA-9AC4-EB73FD43E0DD}"/>
+						<State Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+						<State Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+							<EndState Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+							<EndState Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

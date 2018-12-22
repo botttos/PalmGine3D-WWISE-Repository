@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2DC0028-8461-4FE7-B918-E64D2A2E3F8B}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D2DC0028-8461-4FE7-B918-E64D2A2E3F8B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Assignment3" ID="{A332FC0C-729C-412D-ADEE-B61BF18B4233}">
+					<ObjectInclusionList>
+						<ObjectRef Name="music_TheGrowlers_GoingGetsTuff" ID="{419B55B7-4ED6-400E-99CC-21DBDBD7882B}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_All" ID="{7B0A3E63-273B-439C-A4E5-BD2C2DF47272}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_All" ID="{91A7F62D-94EA-441B-B520-FD9E6E0343D9}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_TheDillards_Dooley" ID="{15502F0E-C943-4784-B3BB-D437432BF073}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="train" ID="{3E696592-5EB0-479D-B767-864CE6023D4D}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_All" ID="{15E847D7-6085-4ED7-BFB3-2120B7960601}" WorkUnitID="{A7AB6E76-9269-4C49-BF53-F13EBD95BA9C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

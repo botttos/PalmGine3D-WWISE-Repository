@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="tunnel" ID="{61E0461F-60F2-4328-BEAA-B2D0141F0DBB}" ShortID="695923294">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="doppler" ID="{8F8F6DB8-9D1D-4EC2-8396-5610B13930A5}" WorkUnitID="{4E8B386F-B147-4FB0-B949-DF2F6BB34B1C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27A64F1C-4747-4F8A-BBC2-F143E46E6B21}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{445FDBB0-0111-48D6-9252-2295571B0AFB}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="tunnel" ID="{0910C832-54C7-46B3-A91A-6EE384C4C6E1}" WorkUnitID="{445FDBB0-0111-48D6-9252-2295571B0AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="train" ID="{6B052DB8-7D68-4FFD-AF63-AF4A72370A6B}" ShortID="634942128">
+							<PropertyList>
+								<Property Name="EnablePanner" Type="bool" Value="True"/>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{A8CA4A69-59E8-4D78-B132-9D6BBA52E72C}" ShortID="990880799">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="HighPassFilter" ID="{12AA1A0B-82C4-49D7-BA56-A6E7AAD2A877}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{971FC70A-930B-4AEB-85D6-6C8E9CE15312}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{52866B0F-D558-475B-A8AC-719F01870F87}" ShortID="329130916">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LowPassFilter" ID="{3353B1C6-3FBC-4B3C-AF36-3823E4AF4E58}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F022DE74-A6CE-41ED-BAEF-38EA48F3C9ED}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{8460F865-8E39-486B-B5F4-0BD8FCA5C93C}" ShortID="368346762">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Pitch" ID="{72572F0E-6B35-4348-85D1-ED86BCDB499B}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EBE5DD87-142A-4A06-BFB2-CDB781E05286}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>4800</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{8F8F6DB8-9D1D-4EC2-8396-5610B13930A5}">
+										<Attenuation Name="doppler (Custom)" ID="{A835EE94-5FD4-4575-9AA3-C2A8D198EE4D}" ShortID="602897000">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{D1DA345D-43AF-4DDF-921C-DD2279A6FBDE}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27A64F1C-4747-4F8A-BBC2-F143E46E6B21}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{445FDBB0-0111-48D6-9252-2295571B0AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="train" ID="{EC99F7B1-9FF7-49FB-80C8-ADD345002412}" ShortID="496129679">
+									<Language>SFX</Language>
+									<AudioFile>train.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{E03AE2D9-EF8F-4A6C-AE87-6D3ABAB360BB}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{4B554942-9ECD-44A8-BAA3-A27DCD4D9315}" ShortID="768396115">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PanLeft" ID="{1B5B5380-7AFC-4779-BF72-5BC254E2057A}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{ADCBFF1C-E0E1-442D-ABE1-201DDAF7F523}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{1F00CE89-C4AB-4F85-91B4-4D7DCCD9AE91}" ShortID="589796149">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PanRight" ID="{0F146D2B-4E54-48BA-8480-EFA0E15FCD34}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DADECA99-627E-470F-BBC7-30262A713B0F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="swap_music" ID="{0B5A6A6C-3471-4C3D-B035-08B20D3501DE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+										<State Name="" ID="{F2163A9E-E772-40D5-9E86-243EB841E1EE}" ShortID="749374891"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+										<State Name="" ID="{EECBA28E-C1AD-4FC7-9218-ABDBD002CED4}" ShortID="833841005">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="train" ID="{EC99F7B1-9FF7-49FB-80C8-ADD345002412}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" ShortID="343392760">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{4FF5C92F-D5C1-4C01-A599-FEFE1D4A3405}" ShortID="352467833">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="HighPassFilter" ID="{12AA1A0B-82C4-49D7-BA56-A6E7AAD2A877}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5022748A-5CB5-47BC-9A07-0ADC85D0DFBC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{D43F2D69-CAA3-4EEE-8A3D-5F3F873A1771}" ShortID="850199400">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LowPassFilter" ID="{3353B1C6-3FBC-4B3C-AF36-3823E4AF4E58}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5CC47FC1-C1AA-4AD4-AE37-7ECA2E25BF3D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{EB2D79CC-5AAE-44B8-860C-11FB0DD4915C}" ShortID="756217526">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Pitch" ID="{72572F0E-6B35-4348-85D1-ED86BCDB499B}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8FE59E26-8ACC-48EA-AB1F-61657EA37325}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27A64F1C-4747-4F8A-BBC2-F143E46E6B21}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{445FDBB0-0111-48D6-9252-2295571B0AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="The Growlers-Going Gets Tuff" ID="{27B4308B-B744-48EF-A44E-E3E2AD0A88BE}" ShortID="5030772">
+							<Language>SFX</Language>
+							<AudioFile>The Growlers-Going Gets Tuff.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="swap_music" ID="{0B5A6A6C-3471-4C3D-B035-08B20D3501DE}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+								<State Name="" ID="{A203FC60-7A3A-4D9E-8E29-D59BE54FF970}" ShortID="687525093"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+								<State Name="" ID="{891E43E0-BC38-4906-AE6E-BE5BF9B65F9C}" ShortID="702550394">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="The Growlers-Going Gets Tuff" ID="{27B4308B-B744-48EF-A44E-E3E2AD0A88BE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" ShortID="532698830">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{315D9123-D12B-46BD-938B-958870144691}" ShortID="1072804913">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="HighPassFilter" ID="{12AA1A0B-82C4-49D7-BA56-A6E7AAD2A877}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{03AAC356-8C45-440C-919D-CDEBF017A918}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{0D0C8397-4192-4678-990D-B6F4E4ACE958}" ShortID="573415687">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LowPassFilter" ID="{3353B1C6-3FBC-4B3C-AF36-3823E4AF4E58}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{05DB5210-3A3C-4486-BF37-D7750E93FDA6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{3E79F886-BFEA-4CB7-8236-831E6B4712F1}" ShortID="789697748">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Pitch" ID="{72572F0E-6B35-4348-85D1-ED86BCDB499B}" WorkUnitID="{205E7090-7C59-478F-B295-3395D1E2F6F7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5906BA86-A76E-4C99-A77C-9AE0AEBE77A0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27A64F1C-4747-4F8A-BBC2-F143E46E6B21}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{445FDBB0-0111-48D6-9252-2295571B0AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="The Dillards - Dooley" ID="{9ACF7EED-3351-4A42-9622-9F2911E8014C}" ShortID="352902853">
+							<Language>SFX</Language>
+							<AudioFile>The Dillards - Dooley.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="swap_music" ID="{0B5A6A6C-3471-4C3D-B035-08B20D3501DE}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+								<State Name="" ID="{860A02ED-7DDC-405B-828E-C05084B6A284}" ShortID="30445711"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+								<State Name="" ID="{71B15A7D-9453-4887-BC12-DB981913A9A4}" ShortID="454330767">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="The Dillards - Dooley" ID="{9ACF7EED-3351-4A42-9622-9F2911E8014C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

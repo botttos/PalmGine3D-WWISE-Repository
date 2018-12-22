@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{205E7090-7C59-478F-B295-3395D1E2F6F7}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{205E7090-7C59-478F-B295-3395D1E2F6F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Pitch" ID="{72572F0E-6B35-4348-85D1-ED86BCDB499B}"/>
+				<GameParameter Name="HighPassFilter" ID="{12AA1A0B-82C4-49D7-BA56-A6E7AAD2A877}"/>
+				<GameParameter Name="LowPassFilter" ID="{3353B1C6-3FBC-4B3C-AF36-3823E4AF4E58}"/>
+				<GameParameter Name="PanRight" ID="{0F146D2B-4E54-48BA-8480-EFA0E15FCD34}"/>
+				<GameParameter Name="PanLeft" ID="{1B5B5380-7AFC-4779-BF72-5BC254E2057A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
