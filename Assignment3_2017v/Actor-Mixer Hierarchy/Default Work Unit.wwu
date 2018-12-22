@@ -493,6 +493,13 @@
 						<Reference Name="Attenuation">
 							<Custom CreatedFrom="{8F8F6DB8-9D1D-4EC2-8396-5610B13930A5}">
 								<Attenuation Name="doppler (Custom)" ID="{A835EE94-5FD4-4575-9AA3-C2A8D198EE4D}" ShortID="602897000">
+									<PropertyList>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
