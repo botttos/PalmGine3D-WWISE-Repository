@@ -12,9 +12,14 @@
 					<ChildrenList>
 						<AuxBus Name="tunnel" ID="{0910C832-54C7-46B3-A91A-6EE384C4C6E1}">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="doppler" ID="{8F8F6DB8-9D1D-4EC2-8396-5610B13930A5}" WorkUnitID="{4E8B386F-B147-4FB0-B949-DF2F6BB34B1C}"/>
+								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>

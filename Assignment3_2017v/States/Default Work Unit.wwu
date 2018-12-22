@@ -6,20 +6,41 @@
 				<StateGroup Name="swap_music" ID="{0B5A6A6C-3471-4C3D-B035-08B20D3501DE}">
 					<ChildrenList>
 						<State Name="None" ID="{42026D94-8762-44FA-9AC4-EB73FD43E0DD}"/>
-						<State Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
-						<State Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+						<State Name="state2" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+						<State Name="state1" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
-							<EndState Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
-							<Time>3</Time>
+							<StartState Name="state2" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+							<EndState Name="state1" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+							<Time>4</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="On" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
-							<EndState Name="Off" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
-							<Time>3</Time>
+							<StartState Name="state1" ID="{AC7AEBF1-44F2-4591-8170-D8104924A4BD}"/>
+							<EndState Name="state2" ID="{B54F28A0-2CD3-4E69-AD05-7CD5F327850B}"/>
+							<Time>4</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="swap_music2" ID="{D8D77781-29C8-4394-A5C4-CDD11ACD1739}">
+					<ChildrenList>
+						<State Name="None" ID="{508ABED2-EB88-4C42-A484-4A32D06EFF6A}"/>
+						<State Name="transition1" ID="{E023F52C-E46E-43AF-AD87-216BCC3BCD57}"/>
+						<State Name="transition2" ID="{36C5198A-1448-48FC-8922-06DB5D7EAA51}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{508ABED2-EB88-4C42-A484-4A32D06EFF6A}"/>
+							<EndState Name="transition1" ID="{E023F52C-E46E-43AF-AD87-216BCC3BCD57}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{508ABED2-EB88-4C42-A484-4A32D06EFF6A}"/>
+							<EndState Name="transition2" ID="{36C5198A-1448-48FC-8922-06DB5D7EAA51}"/>
+							<Time>5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

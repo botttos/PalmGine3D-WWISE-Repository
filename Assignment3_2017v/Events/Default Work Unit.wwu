@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Event Name="train" ID="{3E696592-5EB0-479D-B767-864CE6023D4D}">
 					<ChildrenList>
-						<Action Name="" ID="{75F6D4DB-855F-4EB4-BA90-AEF58C2FD432}" ShortID="484893679">
+						<Action Name="" ID="{F4B0CF66-3DF4-48BD-9474-ED450C16E2C2}" ShortID="526298403">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
@@ -181,6 +181,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="background_tracks" ID="{C18BBE21-C9C1-479E-ADE7-633EC73C2E61}">
+					<ChildrenList>
+						<Action Name="" ID="{B828F8F9-AC00-4384-ABBB-904CB15D4857}" ShortID="222968006">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Growlers-Going Gets Tuff" ID="{03EC7BF1-BF57-41D7-8E9B-9D70A4C3F5CB}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FF64E0E8-58C0-4237-A304-75282041B9BE}" ShortID="548958366">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Dillards - Dooley" ID="{5C0E1BF6-D5A9-4774-88EB-269C600445D9}" WorkUnitID="{739C14B3-93CA-42B5-959E-DCDBA55EC96D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
